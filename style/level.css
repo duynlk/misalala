@@ -1,0 +1,87 @@
+	#rescore {
+		color:#BB6817;
+		font-size:36px;
+		font-weight:bold;
+		position:fixed;
+		bottom:10%;
+		right:10%;
+		display:none;	
+	}
+	
+	#score {
+		font-size:25px;
+		color:red;
+	}
+	
+	#stt {
+		font-size:100px;
+		color:#585158;	
+	}
+	
+	#playagain {
+		display:none;
+		border:0;
+		border-radius:5px;
+		font-weight:bold;
+		padding:10px;
+		background-color:#183568;
+		color:white;	
+	}
+	
+	#labelscore {
+		font-size:20px;
+	}
+	
+	#level {
+		font-size:40px;
+		color:#183568	
+	}
+	
+	#ok1, #ok2, #ok3, #ok4, #ok5, #ok6, #ok7, #ok8, #ok9, #ok10, #ok11, #ok12, #ok13, #ok14, #ok15, #ok16, #ok17, #ok18 {
+		border: #0C2357 1px solid;	
+	}
+	
+	#info {
+		font-size:14px;
+		font-weight:bold;	
+	}
+
+	body {
+		background-image:url(../background.jpg);
+		background-attachment:fixed;	
+		background-repeat:no-repeat;
+		background-position:center;
+		background-size: 100% 100%;	
+	}
+	
+	.misa {
+		font-size:25px;
+		color:#4D4D5B; 
+		font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;	
+	}
+	
+	.imgdes {
+		opacity:0.6;	
+	}
+	
+	.imgdes:hover {
+		opacity:1;	
+	}
+	
+	a {
+		text-decoration:none;	
+	}
+	
+	a:link {
+		color:#21278C;	
+	}
+
+	a:visited {
+		color:#21278C;	
+	}
+	
+	img {
+		border-radius:15px;	
+	}
+
+	

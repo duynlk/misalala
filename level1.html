@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MisaLala - Level 1</title>
+    <link rel="stylesheet" href="style/level.css" type="text/css">
+    <link rel="icon" href="facvicon.png" type="img/gif">
+    <script src="script/level1.js"></script>
+    
+    
+</head>
+
+<body> 
+
+	<p id="rescore"></p>
+
+    <table align="center">
+        <tr>
+            <td width="25%" valign="top" align="center">
+            <br>
+            	<img id="ok1" src="img/cat/one.jpg" width="100" height="100" alt=""><br><br>
+                <img id="ok2" src="img/cat/two.jpg" width="100" height="100" alt=""><br><br>
+                <img id="ok3" src="img/cat/three.jpg" width="100" height="100" alt=""><br><br>
+                <img id="ok4" src="img/cat/four.jpg" width="100" height="100" alt=""><br><br>
+                <img id="ok5" src="img/cat/lucky.jpg" width="100" height="100" alt="">
+            </td>
+            <td width="50%">
+                <table>
+                    <tr>
+                        <td width="200" height="200"><img id="x1" onClick="show(this.id)" src="img/emty.jpg" alt=""></td>
+                        <td width="200" height="200"><img id="x2" onClick="show(this.id)" src="img/emty.jpg" alt=""></td>
+                        <td width="200" height="200"><img id="x3" onClick="show(this.id)" src="img/emty.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td width="200" height="200"><img id="x4" onClick="show(this.id)" src="img/emty.jpg" alt=""></td>
+                        <td width="200" height="200"><img id="x5" onClick="show(this.id)" src="img/emty.jpg" alt=""></td>
+                        <td width="200" height="200"><img id="x6" onClick="show(this.id)" src="img/emty.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td width="200" height="200"><img id="x7" onClick="show(this.id)" src="img/emty.jpg" alt=""></td>
+                        <td width="200" height="200"><img id="x8" onClick="show(this.id)" src="img/emty.jpg" alt=""></td>
+                        <td width="200" height="200"><img id="x9" onClick="show(this.id)" src="img/emty.jpg" alt=""></td>
+                    </tr>
+                </table>
+            </td>
+            <td width="25%" valign="top">
+                <div align="center">	 
+                	<br>   
+                   	<span id="info">
+                    	&copy; nlkSoft<br>
+                    </span>
+                    <img src="logo.png" width="200" height="100" alt=""><br>
+                    <b id="level">Level 1</b><br><hr style="width:50%; color:#183568"><br>
+                    <b>Time:&nbsp;</b><b id="second"></b><br><br>
+                    <b id="labelscore">Score:&nbsp;</b>
+                    <b id="score"></b><br><br>
+                    <b id="stt"></b><br><br>
+                    <button id="playagain" onClick="playagain()">Play again !</button>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
