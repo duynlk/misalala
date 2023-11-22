@@ -1,3 +1,3 @@
 Game find similar pictures by Javascript.
 
-![image](https://github.com/duynlk/misalala/assets/16206786/beaf484a-5634-47e0-a933-9bf3c619f990)
+![frame_generic_light](https://github.com/duynlk/misalala/assets/16206786/0446eede-eb8b-41bc-9cef-d17eb8f9a541)
